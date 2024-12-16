@@ -28,6 +28,11 @@ class SignInActivity : AppCompatActivity() {
             finish() // Close SignInActivity when going to SignUpActivity
         }
 
+        binding.forgotPass.setOnClickListener {
+            val intent=Intent(this, ForgotPasswordActivity::class.java)
+            startActivity(intent)
+        }
+
         // Sign-in button functionality
         binding.button.setOnClickListener {
             Log.d("SignInActivity", "Sign-in button clicked")

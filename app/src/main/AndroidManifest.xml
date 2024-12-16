@@ -46,7 +46,6 @@
         <activity android:name=".ViewEvents" />
         <activity android:name=".AddPlacement" />
         <activity android:name=".ViewPlacements" />
-        <activity android:name=".ChatBotActivity" />
 
         <activity android:name=".QuizPannel"/>
         <activity android:name=".QuizActivity"/>
@@ -54,6 +53,11 @@
 
 
         <activity android:name=".ProfilePannel" />
+
+
+        <activity android:name=".ForgotPasswordActivity" />
+
+
 
 
 
